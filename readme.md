@@ -8,4 +8,8 @@ the important files, if you want the code for calculating and all of the code wh
 the rest of the files are used for making all of this a website
 the templates folders contain the html (frontend), if you're interested in that (for some reason)
 take into account some files are under the gpl v3 licence, these include: All the views.py and more
+you can follow us on [Mastodon](https://mastodon.social/@Helpro), which is part of the fediverse  
+the link to our website will be uploaded soon 😀
+
+
 
