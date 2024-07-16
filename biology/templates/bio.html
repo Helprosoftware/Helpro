@@ -1,0 +1,31 @@
+<title>Source Code</title>
+<head>
+<body>
+<body style="background-color:lightgreen;">
+	{%include "barra.html"%}
+<style>
+h1{
+	text-align: center;
+	color: red;
+</style>
+{%load static%}
+<h1>Source code</h1>
+<hr width="90%">
+
+
+
+<p>As this website is proudly licenced under the GPL , the links to the source code on different git servers are below(click on the logo of your chosen server):
+	<p></p>
+<a href=https://codeberg.org/Helprosoftware/Helpro_website target="_blank"><img  src= "{% static 'images/codeberg.png' %}"  width='49' height='49'/></a>
+<!--<a href=https://gitlab.com/helpro1/Helprowebsite target="_blank"><img  src= "{% static 'images/gitlab.png' %}"  width='60' height='60'/></a>-->
+<a href="https://github.com/Helprosoftware/Helpro" target="_blank"><img  src= "{% static 'images/git.png' %}"  width='49' height='49'/></a>
+<p></p>
+<p>we apologize in advance if the code is messy and unreadable and we will try to make this better, the website is coded in django which is a python library, the front end is done in html and css. The front end is not very "developed" because the main part of the project is really the backend, where all the "work" really happens (solving the excercises), we hope this code may help anyone who needs it in their own work</p>
+<p>We chose to share the website's code and put the website under a <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL</a> licence because we genuinely believe in open source and we wish anyone who wants to to reuse our code, we strongly recommend you to use this licence on work you do independently</p>
+<h4>If you wish to make any contributions to the site (even if it's just python or just css/html), and you don't feel like hosting a new website, we invite you to contact us with your code. Any contributions are most welcome. Contact us by texting "helpro" through <a href="https://jami.net" target="_blank"> Jami</a> or sending us an <a href="mailto:admin@helprow.xyz"> email</a></h4>
+<img  src= "{% static 'images/gpl3.png' %}"/>
+
+
+</body>
+{%include "footer.html"%}
+</head>

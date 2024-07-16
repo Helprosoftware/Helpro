@@ -1,0 +1,50 @@
+<title>calculate molecular formula of compound with three elements</title>
+<head>
+<body>
+<body >
+	{%include "barra.html"%}
+	<p></p>
+
+	{%include "molecbar.html"%}
+<body style="background-color:lightgrey;">
+
+
+<h1>Empirical formula of compound with two different elements</h1>
+
+<form action="/molecsult2tvm/" method="GET">
+		<label>temperature(kelvin)</label>
+		<input type="text" name="t">
+		<p></p>
+		<label>volume</label>
+		<input type="text" name="v">
+		<p></p>
+		<label>Mass</label>
+		<input type="text" name="M">
+		<p></p>
+
+		<label>pressure(atm)</label>
+		<input type="text" name="p">
+		<p></p>
+
+
+		<label>element 1</label>
+		<input type="text" name="e1">
+		<label>percentage of element 1</label>
+		<input type="text" name="p1"> 
+		<p></p>
+		<label>element 2</label>
+		<input type="text" name="e2">
+		<label>percentage of element 2</label>
+		<input type="text" name="p2"> 
+
+
+		<input type="submit" value="enter">
+
+
+<p></p><a href="/molec2">knowing Mr</a>
+
+
+
+
+
+</body>

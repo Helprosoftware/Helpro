@@ -1,0 +1,43 @@
+<title>HprHelproHome</title>
+<head>
+	
+<body>
+{%load static%}
+<body style="background-color:aquamarine;">
+	{%include "barra.html"%}
+<style>
+h1{
+	text-align: center;
+	color:darkslateblue;
+}
+</style>
+<h1>Home </h1>
+<style>
+p{
+	text-align: center;
+	
+}
+</style>
+<p>welcome to hpr</p>
+<p></p>
+<p>picture of the month:</p>
+<p>-----</p>
+<figure>
+	<a  href="https://www.museoreinasofia.es/en/collection/artwork/guernica" target=”_blank”><img  src= "{% static 'images/guerni.gif' %}"/></a>
+	<figcaption>Pablo Ruiz Picasso's Guernica</figcaption>
+</figure>
+<p></p>
+<p>film of the month:</p>
+<p></p>
+<figure>
+	<img  src= "{% static 'images/spock.webp' %}"/>
+	<a  href="https://www.startrek.com/en-un/series/star-trek-the-original-series" target=”_blank”><img  src= "{% static 'images/ent.gif' %}"/></a>
+	<figcaption>scenes from Star Trek The Original Series</figcaption>
+</figure>
+
+
+
+<p></p>
+</body>
+{%include "footer.html"%}
+</head>
