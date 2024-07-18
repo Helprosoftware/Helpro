@@ -42,10 +42,10 @@ urlpatterns = [
     path("circd/",views.circd, name = "circd"),
     path("circdo/",views.circdo, name = "circdo"),
 #plotrr
-    path("plotrr/",views.plotrrrot, name = "plotrr"),
-    path("plotrrot/",views.plotrr, name ="plotrrrot"),
-    path("plotrrot1/",views.plotrrot1, name ="plotrrrot1"),
-    path("plot1/",views.plot1, name ="plot1"),
+    #path("plotrr/",views.plotrrrot, name = "plotrr"),
+    #path("plotrrot/",views.plotrr, name ="plotrrrot"),
+    #path("plotrrot1/",views.plotrrot1, name ="plotrrrot1"),
+    #path("plot1/",views.plot1, name ="plot1"),
 #matriz
     path("matriz/",views.matriz, name = "matriz"),
     path("det3/",views.det3, name = "det3"),

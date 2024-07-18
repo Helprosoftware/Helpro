@@ -22,7 +22,7 @@ midiccionario={0.01:0.5040,0.02:0.5080,0.03:0.5120,0.05:0.5190,0.06:0.5239,0.07:
 
 
 
-
+#next functions are for rotatios
 
 def verta(c1,c2,p1,p2,ang):
     vo1= c1-p1
@@ -43,11 +43,11 @@ def rotate_y(verta):
     
 
 def plot1(request):
-    c1= int(input("c1"))
-    c2= int(input("c2"))
-    p1= int(input("p1"))
-    p2= int(input("p2"))
-    ang= int(input("ang"))
+    c1= int(request.GET["c1"])
+    c2= int(request.GET["c2"])
+    p1= int(request.GET["x"])
+    p2= int(request.GET["y"])
+    ang= int(request.GET["ang"])
     if p1<c1 and p2<c2:
         verta=verta(c1,c2,p1,p2,ang)
         r1 = c1 - (rotate_x(verta))
